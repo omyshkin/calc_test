@@ -12,7 +12,7 @@ This project is a simple calculator that performs basic arithmetic operations: a
 - Division (with error handling for division by zero)
 
 ## Project Structure
-
+```
 test_calc/
 ├── .idea/
 ├── .venv/
@@ -21,7 +21,7 @@ test_calc/
 ├── .gitignore
 ├── test_calc.iml
 └── test_operations.py  # Contains unit tests for arithmetic operations
-
+```
 
 ## Setup Instructions
 
@@ -32,12 +32,16 @@ test_calc/
    cd test_calc
 
 2. Set up a virtual environment (optional but recommended):
-  python3 -m venv .venv
-  source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
+
+   ```bash
+   python3 -m venv .venv
+   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
    
 ## Running Tests
 To run the unit tests for the arithmetic operations, use one of the following commands in the terminal:
 - To run a specific test file:
-python3 -m unittest test_operations.py
+  ```bash
+  python3 -m unittest test_operations.py
 - To discover and run all tests in the project:
-python3 -m unittest discover
+  ```bash
+  python3 -m unittest discover
